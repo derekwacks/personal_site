@@ -85,3 +85,49 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 | Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
 | White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
 | Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
+
+
+
+
+
+## Making Edits
+
+Develop on the ```source``` branch
+
+```
+git checkout source
+```
+
+Install the correct dependencies:
+
+```
+yarn
+```
+
+Make edits!
+
+Stage and push
+
+```
+git add *
+```
+
+```
+git commit -m "new edits!"
+```
+
+```
+git push
+```
+
+Generate a full static production build
+
+```
+npm run build
+```
+
+Deploy the build to the ```main``` branch to display on derekwacks.github.io
+
+```
+npm run deploy
+```

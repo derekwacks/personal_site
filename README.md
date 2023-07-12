@@ -106,6 +106,12 @@ yarn
 
 Make edits!
 
+Generate a full static production build
+
+```
+npm run build
+```
+
 Stage and push
 
 ```
@@ -118,12 +124,6 @@ git commit -m "new edits!"
 
 ```
 git push
-```
-
-Generate a full static production build
-
-```
-npm run build
 ```
 
 Deploy the build to the ```main``` branch to display on derekwacks.github.io

@@ -143,7 +143,7 @@ const About = () => {
               I recently undertook a BizOps role at{' '}
               <a href="https://www.fluxmarine.com/">Flux Marine,</a> a startup I co-founded several
               years ago that manufactures electric boat motors. I'm also a masters student studying
-              neuroengineering at <a href="https://www.fluxmarine.com/">Brown University,</a> in the
+              neuroengineering at <a href="https://brown.edu/">Brown University,</a> in the
               Department of Biomedical Engineering. Last year, my work focused on software
               engineering for <a href="https://www.braingate.org/">BrainGate,</a> (a consortium of
               labs developing intracortical brain-computer interfaces).

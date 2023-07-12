@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+//import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
 import { srConfig } from '@config';
@@ -247,7 +247,7 @@ const StyledProject = styled.li`
     position: relative;
     z-index: 1;
 
-    @media (max-width: 768px) {
+    @media (max-width: 768) {
       grid-column: 1 / -1;
       height: 100%;
       opacity: 0.25;
@@ -355,8 +355,9 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
-            const image = getImage(cover);
+            //const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, github, cta } = frontmatter;
+            //const image = getImage(cover);
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -399,12 +400,6 @@ const Featured = () => {
                       )}
                     </div>
                   </div>
-                </div>
-
-                <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
-                  </a>
                 </div>
               </StyledProject>
             );

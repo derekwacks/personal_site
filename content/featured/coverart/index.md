@@ -1,14 +1,12 @@
 ---
 date: '3'
 title: 'Album Cover Art and Playlist recommendation'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+cover: './coverart.jpg'
+external: 'https://github.com/derekwacks/albumcovercuration'
+cta: 'https://github.com/derekwacks/albumcovercuration'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Python
+  - AWS tools
 ---
 
 Collaborated with team member to design and code a website-based app that delivers cover art and playlist recommendations to users based on image uploads and chatbot interactions.

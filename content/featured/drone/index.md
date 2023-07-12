@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'BCI-controlled Virtual Drone'
-cover: './halcyon.png'
+cover: './drone.png'
 github: ''
 external: 'https://www.braingate.org/'
 tech:

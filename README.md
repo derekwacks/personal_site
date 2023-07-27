@@ -104,7 +104,7 @@ Install the correct dependencies:
 yarn
 ```
 
-Make edits!
+Make edits! (NTS: might need to delete /public/)
 
 Generate a full static production build
 

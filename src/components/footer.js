@@ -71,16 +71,22 @@ const Footer = () => (
     <StyledSocialLinks>
       <ul>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <a href={url} aria-label={name}>
-                  <Icon name={name} />
-                </a>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
       </ul>
     </StyledSocialLinks>
-
+    <iframe
+      title="a unique title"
+      width="85%"
+      height="60"
+      src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FMRVRADIOPROV%2Fxtra-large-spicy-pepperoni-pizza-mix%2F"
+      frameBorder="0"
+    />
     <StyledCredit tabindex="-1">
       <a href="https://github.com/bchiang7/v4">
         <div>Forked from Brittany Chiang</div>

@@ -62,19 +62,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Derek Wacks.</h2>;
-  const three = <h3 className="big-heading">I build things.</h3>;
-  const four = (
-    <>
-      <h1>I’m a coder, startup operator, and tinkerer.</h1>
-    </>
-  );
-  const five = (
+  const three = (
     <a className="email-link" href={`mailto:${email}`}>
       Say Hello
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three];
 
   return (
     <StyledHeroSection>

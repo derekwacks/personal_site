@@ -10,4 +10,4 @@ tech:
   - BrainGate's BCI
 ---
 
-Intracortical brain-computer-interface controlled flight simulation. Enabled the participant to fly a virtual drone using their brain signals. Wrote backend Python code that receives and processes decoded neural signals, controls game logic, and interfaces with a front-end simulation running Microsoft’s AirSim flight simulator in Unity. Ran research sessions to test the continuous kinematic control of BrainGate’s neural signal decoder.
+Intracortical brain-computer-interface controlled flight simulation. Enabled the participant to fly a virtual drone using their brain signals. Wrote backend Python code that receives and processes decoded neural signals, controls game logic, and interfaces with a front-end simulation running Microsoft’s AirSim flight simulator in Unity. Ran 3 research sessions with the participant to test different control schemes for ease of use.

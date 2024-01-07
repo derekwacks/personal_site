@@ -58,8 +58,8 @@ const Contact = () => {
       <h2 className="numbered-heading">Get In Touch</h2>
 
       <p>
-        I'm looking for new projects to collaborate on! I bounce between Boston, Providence, and
-        NYC, and am always up for coffee. Shoot me an email!
+        I'm looking for new projects to collaborate on! I bounce between Boston and NYC, and am
+        always up for coffee. Shoot me an email!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

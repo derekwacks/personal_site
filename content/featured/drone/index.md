@@ -1,9 +1,9 @@
 ---
-date: '1'
+date: '2'
 title: 'BCI-controlled Virtual Drone'
 cover: './drone.png'
-github: ''
 external: 'https://www.braingate.org/'
+cta: 'https://www.braingate.org/'
 tech:
   - Python
   - Unity
